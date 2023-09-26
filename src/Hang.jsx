@@ -57,7 +57,8 @@ const Hang = () => {
 
   return (
     <div className="forca-container">
-      <h1>Jogo da Forca 😬</h1>
+     <div className="content-um">
+     <h1>Jogo da Forca 😬</h1>
       <p>Tentativas restantes: {maxTries - tries}</p>
       <div className="word-display">{getWordDisplay()}</div>
       <div className="alphabet">
@@ -71,6 +72,7 @@ const Hang = () => {
           </button>
         ))}
       </div>
+     </div>
       <div className="hangman">
         <img
           src={`images/hangman${tries}.png`}

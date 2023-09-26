@@ -1,13 +1,22 @@
 
 .forca-container {
   text-align: center;
-  max-width: 900px;
-  margin: 2rem 30rem;
+  margin: 2rem 10rem;
+  display: flex;
 }
 
 .word-display {
   font-size: 3rem;
   margin: 1rem;
+}
+
+.content-um {
+  min-width: 80%;
+}
+
+.hangman img {
+  width: 400px;
+  height: 400px;
 }
 
 .alphabet {
