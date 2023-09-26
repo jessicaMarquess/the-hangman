@@ -9,9 +9,9 @@ const Modal = ({ isWinner, restartGame }) => {
          <>
           <span id='title'>Você venceu! 🎉</span>
           <br/>
-          <span> Agora, você pode clicar logo abaixo:</span>
+          <span>Eu te amo, AJ 🖤 </span>
           <br/>
-          <a href="https://www.youtube.com/watch?v=FLPz-5SsCnM" target="_blank" rel="noreferrer">Clica em mim 🙃</a>
+          <a href="https://www.youtube.com/watch?v=FLPz-5SsCnM" target="_blank" rel="noreferrer">Ofereço esta canção</a>
           <span><br/> ou você pode ...</span>
          </>
         ) : (
