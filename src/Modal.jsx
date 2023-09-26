@@ -15,7 +15,10 @@ const Modal = ({ isWinner, restartGame }) => {
           <span><br/> ou você pode ...</span>
          </>
         ) : (
+         <> 
           <span>Você perdeu! 🫥 <br/> Pode tentar de novo????</span>
+          <img className='gif' src='images/game-over.gif' alt="game-over"/>
+         </>
         )}
         </p>
         <button onClick={restartGame}>Reiniciar</button>
