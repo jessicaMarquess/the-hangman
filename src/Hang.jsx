@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Hang.css";
 import Modal from "./Modal";
 
-const word = "feliz aniversario analdo";
+const word = "mascote";
 const maxTries = 6;
 
 const Hang = () => {
